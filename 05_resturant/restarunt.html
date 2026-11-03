@@ -1,0 +1,65 @@
+<h2>Ganesh FastFood</h2>
+<p>
+Welcome to Spice Garden Restaurant, where great taste meets quality service.
+Enjoy our wide range of delicious dishes made with fresh ingredients and served with care.
+</p>
+<img src="food1.jpg" alt="foods">&nbsp;
+<img src="food2.jpg" alt="foods"><br><br>
+<table border="black">
+    <caption><b>Menu Card</b></caption>
+    <tr>
+        <th>
+            Category
+        </th>
+        <th>
+            Item
+        </th>
+        <th>
+            price
+        </th>
+    </tr>
+    <tr>
+        <td rowspan="2">Veg</td>
+        <td>Paneer butter masala</td>
+        <td>180</td>
+    </tr>
+    <tr>
+        <td>Veg biryani</td>
+        <td>150</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Non-Veg</td>
+        <td>Chicken Biryani</td>
+        <td>220</td>
+    </tr>
+    <tr>
+        <td>Chicken Curry</td>
+        <td>200</td>
+    </tr>
+</table><hr>
+<h2>Online Order Form</h2>
+<form action="/Orders">
+    <label for="name">Name :</label>
+    <input type="text" name="name" id="name"><br><br>
+    <label for="phn">Phone Number :</label>
+    <input type="number" name="phn" id="phn"><br><br>
+    <label>Food item :</label><br>
+    <input type="checkbox" name="item" id="pan">
+    <label for="pan">Panner butter masala</label><br>
+    <input type="checkbox" name="item" id="Veg">
+    <label for="Veg">Veg Biryani</label><br>
+    <input type="checkbox" name="item" id="chibir">
+    <label for="chibir">Chicken Biryani</label><br>
+    <input type="checkbox" name="item" id="chicur">
+    <label for="chicur">Chicken Curry</label><br><br>
+    <label for="Quantity">Quantity :</label>
+    <select name="Quantity" id="quan">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select><br><br>
+    <label for="add">Address :</label>
+    <textarea name="add" id="add"></textarea><br><br>
+    <button>Submit</button>
+</form>
+<a href="www.google.com">Contact Us</a>

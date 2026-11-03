@@ -1,0 +1,98 @@
+<table border="black">
+    <caption>Student Information</caption>
+    <!-- <thead> -->
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+    <!-- </thead> -->
+    <tbody>
+        <tr>
+            <!-- <td></td> -->
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </tbody>
+</table>
+
+<br><br><br><br>
+
+<form action="/action">
+    <label for="name">Name :</label>
+    <input type="text" name="name" id="name" >
+    <br><br>
+    <div>
+        <label>Sex :</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">Others</label>
+    </div><br>
+    <div>
+        <label for="con">Country :</label>
+        <select name="con" id="con">
+            <option value="ind">India</option>
+            <option value="usa">USA</option>
+            <option value="NZ">Newzeland</option>
+            <option value="SA">South Africa</option>
+        </select>
+    </div><br>
+    <div>
+        Message :
+        <textarea name="feedback" id="feedback"></textarea>
+    </div><br>
+    <input type="radio" name="sub" id="sub" checked>
+    <label for="sub">Subscribed</label>
+    <br><br>
+    <button>Submit</button>
+</form>
+<br><br><br><br><br>
+
+<form action="action">
+    <h2>Feedback Form</h2>
+    <label for="name">Name :</label>
+    <input type="text" name="name" id="name" placeholder="Write your name"><br><br>
+    <label for="mail">Email :</label>
+    <input type="email" name="mail" id="mail" placeholder="Write your Email"><br><br>
+    Message :<br>
+    <textarea name="mes" id="mes" rows="3" cols="30"></textarea><br><br>
+    <label>Rate us our of 5 :</label><br>
+    <input type="radio" name="rate" id="1" value="1">
+    <label for="1">1</label><br>
+    <input type="radio" name="rate" id="2" value="2">
+    <label for="2">2</label><br>
+    <input type="radio" name="rate" id="3" value="3">
+    <label for="3">3</label><br>
+    <input type="radio" name="rate" id="4" value="4">
+    <label for="4">4</label><br>
+    <input type="radio" name="rate" id="5" value="5">
+    <label for="5">5</label><br>
+    <button>Send your message!</button>
+
+</form>
